@@ -519,7 +519,7 @@ a {
 }
 
 .newsletter_form input[type="email"] {
-  padding: 0.4rem 0;
+  padding: 0.45rem 0;
   outline: none;
   border: none;
   background-color: transparent;
@@ -574,7 +574,7 @@ footer a {
 }
 
 /* responsive design */
-@media (max-width: 600px) {
+@media (max-width: 590px) {
   .header {
     padding: 1rem;
   }
@@ -601,7 +601,7 @@ footer a {
     margin: 0.7rem;
   }
   .background {
-    height: 47vh;
+    height: 70vh;
   }
   .background_details {
     width: 75%;
@@ -609,7 +609,7 @@ footer a {
     margin-top: 5.5rem;
   }
   .background_details h2 {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   }
   .wedding_planner {
     padding: 1.5rem 1rem;
@@ -625,11 +625,11 @@ footer a {
     padding: 0.7rem 0;
   }
   .planner_items .item {
-    margin: 0.6rem;
+    margin: 0.4rem;
     padding-left: 1rem;
   }
   .planner_form select {
-    width: 8.2rem;
+    width: 7rem;
     background: none;
   }
   .planner_form input[type="button"] {
@@ -687,7 +687,7 @@ footer a {
   .ft-main {
     display: flex;
     flex-direction: column;
-    padding: 4rem;
+    padding: 1.5rem 3rem;
   }
   .ft-main-item {
     padding: 0.7rem 0;
@@ -705,10 +705,10 @@ footer a {
     flex: 3;
   }
   .background {
-    height: 60vh;
+    height: 70vh;
   }
   .background_details {
-    margin-top: 3.5rem;
+    margin-top: 8rem;
   }
   .background_details h2 {
     font-size: 1.3rem;
@@ -745,6 +745,6 @@ footer a {
     font-size: 1.1rem;
   }
   .newsletter_form input[type="email"] {
-    padding: 0.45rem 0;
+    padding: 0.425rem 0;
   }
 }
