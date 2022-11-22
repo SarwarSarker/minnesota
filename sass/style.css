@@ -244,7 +244,7 @@ a {
 .wedding_card .card-layout .card {
   margin: 0.5rem;
   background-color: rgb(233, 233, 233);
-  height: 525px;
+  height: 540px;
 }
 .wedding_card .card-layout .card img {
   width: 100%;
@@ -417,7 +417,7 @@ a {
 }
 .trands .card-layout .card {
   margin: 0.5rem;
-  height: 525px;
+  height: 540px;
 }
 .trands .card-layout .card img {
   width: 100%;
@@ -638,7 +638,7 @@ footer .ft-main li {
     width: 100%;
   }
   .header .hd-nav .hd_nav_detail ul a {
-    margin-right: 1rem;
+    margin-right: 0.8rem;
   }
   .header .hd-nav .hd_nav_logo {
     position: relative;
@@ -650,7 +650,7 @@ footer .ft-main li {
   }
   /* banner section */
   .background {
-    height: 70vh;
+    height: 80vh;
   }
   .background .background_details {
     max-width: 90%;
@@ -668,16 +668,20 @@ footer .ft-main li {
   .wedding_planner .planner_details h2 {
     max-width: 100%;
     font-size: 1.5rem;
-  }
-  .wedding_planner .planner_details h2 span {
-    font-style: italic;
+    margin-bottom: 0.8rem;
   }
   .wedding_planner .planner_details .planner_items .item {
-    margin: 0.5rem;
-    padding-left: 1rem;
+    margin: 0.3rem;
+    padding-left: 0.5rem;
+  }
+  .wedding_planner .planner_details .planner_form {
+    margin-top: 0.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .wedding_planner .planner_details .planner_form select {
-    width: 7rem;
+    width: 33%;
     background: none;
   }
   .wedding_planner .planner_details .planner_form input[type=button] {
@@ -695,6 +699,9 @@ footer .ft-main li {
   }
   .wedding_pros .wedding_pros_content {
     height: 55vh;
+  }
+  .wedding_pros .wedding_pros_content .wedding_pros_text {
+    width: 100%;
   }
   .wedding_pros .wedding_pros_content .wedding_pros_text h4 {
     font-size: 1.2rem;
@@ -764,8 +771,11 @@ footer .ft-main li {
   .spotlight .spotlight_content {
     height: 55vh;
   }
+  .spotlight .spotlight_content .spotlight_text {
+    width: 80%;
+  }
   .spotlight .spotlight_content .spotlight_text h4 {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
   .spotlight .spotlight_content .spotlight_text p {
     font-size: 0.55rem;

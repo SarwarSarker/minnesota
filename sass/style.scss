@@ -255,7 +255,7 @@ a {
     .card {
       margin: 0.5rem;
       background-color: rgb(233, 233, 233);
-      height: 525px;
+      height: 540px;
 
       img {
         width: 100%;
@@ -433,7 +433,7 @@ a {
     }
     .card {
       margin: 0.5rem;
-      height: 525px;
+      height: 540px;
 
       img {
         width: 100%;
@@ -673,7 +673,7 @@ footer {
       .hd_nav_detail {
         ul {
           a {
-            margin-right: 1rem;
+            margin-right: 0.8rem;
           }
         }
       }
@@ -690,7 +690,7 @@ footer {
   }
   /* banner section */
   .background {
-    height: 70vh;
+    height: 80vh;
 
     .background_details {
       max-width: 90%;
@@ -710,20 +710,22 @@ footer {
       h2 {
         max-width: 100%;
         font-size: 1.5rem;
-
-        span {
-          font-style: italic;
-        }
+        margin-bottom: 0.8rem;
       }
       .planner_items {
         .item {
-          margin: 0.5rem;
-          padding-left: 1rem;
+          margin: 0.3rem;
+          padding-left: 0.5rem;
         }
       }
       .planner_form {
+        margin-top: 0.8rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
         select {
-          width: 7rem;
+          width: 33%;
           background: none;
         }
         input[type="button"] {
@@ -748,6 +750,8 @@ footer {
       height: 55vh;
 
       .wedding_pros_text {
+        width: 100%;
+
         h4 {
           font-size: 1.2rem;
         }
@@ -828,8 +832,10 @@ footer {
       height: 55vh;
 
       .spotlight_text {
+        width: 80%;
+        
         h4 {
-          font-size: 1.2rem;
+          font-size: 1rem;
         }
         p {
           font-size: 0.55rem;
@@ -936,8 +942,8 @@ footer {
       }
     }
   }
-   /* newsletter */
-   .newsletter {
+  /* newsletter */
+  .newsletter {
     padding: 3.5rem;
   }
 }
